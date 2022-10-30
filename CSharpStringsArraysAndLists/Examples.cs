@@ -33,10 +33,10 @@ namespace CSharpStringsArraysAndLists
         public static string PrintCoordinates(int[,] coordinates)
         {
             string ret = string.Empty;
-            for (int i=0; i < coordinates.GetLength(0); i++)
+            for (int i = 0; i < coordinates.GetLength(0); i++)
             {
                 ret += "[";
-                for (int j=0; j < coordinates.GetLength(1); j++)
+                for (int j = 0; j < coordinates.GetLength(1); j++)
                 {
                     ret += $"{coordinates[i, j]}, ";
                 }

@@ -11,6 +11,12 @@ namespace CSharpStringsArraysAndLists
             //Examples.UsefulStringAndCharFunctions();
             //Examples.UsingArrays();
             Examples.UsingLists();
+            Exercises.ArrayExcericises();
+            Exercises.ByteArrays();
+            Exercises.Temperatures();
+            Exercises.Students();
+            Exercises.PigLatin("The cat sat on the mat.");
+
 
         }
 
